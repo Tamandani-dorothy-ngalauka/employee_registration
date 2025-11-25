@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration Form</title>
+</head>
+    <body style="background-color: bisque;">
+            <h1>Employee Registration Form</h1>
+        <form>
+            <table style="border-spacing: 10px; width: 100%;">
+      <tr><th style="text-align: left;">Personal Information</th></tr>
+    <tr>
+        <td><label>Employee Name:</label></td>
+        <td><input type="text" name="emp_name" placeholder="ENTER NAME"/></td>
+   <td><label>Employee ID:</label></td>
+    <td><input type="text" name="emp_id" placeholder="ENTER EMP_ID"/></td>
+    </tr>
+    <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" name="email" placeholder="employee@gmail.com"/></td>
+        <td><label>Contact Number:</label></td>
+        <td><input type="text" name="mobile" maxlength="10" placeholder="ENTER MOBILE NO"/></td>
+   </tr>
+   <tr>
+    <td><label>Nationality:</label></td>
+    <td><select aria-placeholder="NATIONALITY">
+        <option>Indian</option>
+        <option>Malawian</option>
+        <option>Mexican</option>
+        <option>Zambian</option>
+        <option>Tanzanian</option>
+    </select></td>
+    <td><label>Gender</label></td>
+    <td>
+        <input type="radio" name="gender">Male
+         <input type="radio" name="gender">Female
+    </td>
+   </tr>
+
+      <tr><th style="text-align: left;">Education Qualification</th></tr>
+   <tr>
+        <td><label>Education:</label></td>
+        <td><input type="text" name="education"/></td>
+        <td><label>Experience:</label></td>
+        <td><input type="text" name="experience"/></td>
+   </tr>
+ <tr><th style="text-align: left;">Job Details</th></tr>
+<tr>
+        <td><label>Designation:</label></td>
+        <td><input type="text" name="designation"/></td>
+        <td><label>Salary:</label></td>
+        <td><input type="text" name="salary"/></td>
+        </tr>
+        <tr>
+        <td><label>Location:</label></td>
+        <td><input type="text" name="location"/></td>
+</tr>
+</table>
+<tr>
+    <input type="submit">
+    <input type="reset">
+</tr>
+        </form>
+</body>
+</html>
